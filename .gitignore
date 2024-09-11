@@ -6,3 +6,6 @@
 
 # Don't ignore the .gitignore file itself
 !.gitignore
+
+# Don't ignore folders
+!*/
