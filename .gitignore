@@ -1,5 +1,25 @@
 # Ignore all files
 *
+# 忽略所有 Data_Process 資料夾中的內容
+Data_Process/*
+
+# 排除想要上傳的資料夾和文件
+!Data_Process/Actual_Demand/
+!Data_Process/Actual_Demand_sub/
+!Data_Process/Actual_Roof/
+!Data_Process/Actual_Roof_sub/
+!Data_Process/Forecast_Demand/
+!Data_Process/Forecast_Demand_sub/
+!Data_Process/Forecast_Roof/
+!Data_Process/Forecast_Roof_sub/
+!Data_Process/Trim/
+!Data_Process/final_train.csv
+
+# 忽略其他所有 .csv 文件
+*.csv
+
+# 排除特定的 csv 文件，這些是你想要上傳的
+!Data_Process/final_train.csv
 
 # Don't ignore .ipynb files
 !*.ipynb
